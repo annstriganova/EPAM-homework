@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * Created by Аня on 25.08.2016.
  */
-class BinaryIOStream {
+class ByteIOStream {
 
     private static Pattern getPattern() {
         return Pattern.compile("byte|short|int|long|char|float|double|boolean|if|else|switch|" +
